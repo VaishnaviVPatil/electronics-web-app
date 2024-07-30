@@ -1,0 +1,85 @@
+.navbar {
+    background-color: black;
+    color: white;
+}
+ 
+.container-product{
+    padding-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* Navbar.css */
+
+.navbar {
+  background-color: #F9421C; /* Lilac */
+  padding: 10px 20px;
+}
+
+.menu {
+  background-color: #F9421C; /* Lilac */
+  border-bottom: none;
+}
+
+.menu-item {
+  margin-right: 20px;
+  color: #ffffff; /* White */
+  font-size: 16px;
+}
+
+.menu-item a {
+  color: #ffffff; /* White */
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: #61346B; /* Highlight color */
+}
+
+.menu-item span {
+  margin-right: 10px;
+}
+
+.menu-item button {
+  background: none;
+  border: none;
+  color: #ffffff; /* White */
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Additional styles for highlighted button on hover */
+.menu-item button:hover {
+  color: #61346B; /* Highlight color */
+}
+
+/* comp.css */
+
+.card {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-title {
+    background-color: #F9421C; /* Lilac */
+    color: #ffffff; /* White */
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+  }
+  
+  .card-link {
+    display: block;
+    color: #565554; /* Highlight color */
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .card-link:hover {
+    background-color: #F9421C; /* Lilac */
+    color: #ffffff; /* White */
+  }
+  

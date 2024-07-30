@@ -1,0 +1,77 @@
+/* LandingPage.css */
+.landing-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.feature {
+  text-align: center;
+  max-width: 300px;
+}
+
+.cta {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+}
+
+.user-home-container{
+  background-image: linear-gradient(rgba(61, 60, 60, 0.75),rgba(64, 62, 62, 0.75)),url(../images/SmartHomes.jpeg);
+  width: 100%;
+  height: 100%;
+}
+
+.user-home-container h1{
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 80px;
+}
+.user-home-container header p{
+  font-family: 'Big Shoulders Stencil Display', sans-serif;
+  margin-top: -55px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.card{
+  width: 25%;
+  margin: 0 60px;
+  margin-top: 50px;
+
+}
+.card-link{
+  background-color: #fff;
+}
+
+.image{
+  background-image: url(./sony.jpeg);
+  width: 500px;
+  height: 200px;
+}
+.topseller{
+  display: flex;
+  justify-content: center;
+}
+.ots h2{
+  color: #fff;
+  margin-top: 120px;
+}

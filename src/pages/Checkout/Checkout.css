@@ -1,0 +1,33 @@
+/* Checkout.css */
+.checkout-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .delivery-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #F9421C;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #C8A2C8;
+  }
+  
